@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.detail {
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+.detail .detail-con {
+  margin: 0 auto;
+  width: 430px;
+}
+.detail .detail-con .detail-c {
+  display: flex;
+  padding: 10px 0;
+}
+.detail .detail-con .detail-c div:first-child {
+  width: 120px;
+  text-align: right;
+}
+.detail .top {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.detail .top span {
+  font-size: 30px;
+}
+.detail .back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.detail .back .el-icon-back {
+  font-size: 30px;
+}

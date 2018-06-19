@@ -1,0 +1,136 @@
+@charset "UTF-8";
+.login{
+  display: flex;
+  align-items: center;
+  width:100%;
+  height:100%;
+  color:#fff;
+  background: url('http://oss.yundianxiaoer.com/license/openpermit1523584448416.png!style') no-repeat center/cover;
+}
+.login-box{
+  margin: 0  auto;
+  width:615px;
+}
+.login-top{
+  width:100%;
+  text-align: center;
+  p{
+    margin-top:30px;
+    font-size:28px;
+  }
+}
+.login-inp{
+  overflow: hidden;
+  margin-top:45px;
+  width:615px;
+  height:300px;
+  border-radius: 20px;
+  background: rgba(255,255,255,.1);
+}
+.login-type{
+  display: flex;
+  width:100%;
+  background: rgba(255,255,255,.2);
+  cursor: pointer;
+  div{
+    flex:1;
+    position: relative;
+    height:60px;
+    font-size:20px;
+    line-height:60px;
+    text-align: center;
+    color:#c4c4c2;
+    span{
+      display: none;
+      position: absolute;
+      left:calc(~"50% - 15px");
+      bottom: 0;
+      width:30px;
+      height:3px;
+      background: #fff;
+    }
+  }
+  div:first-child::after{
+    display: block;
+    content:'';
+    position: absolute;
+    right:0;
+    top:12px;
+    width:1px;
+    height:36px;
+    background: #fff;
+  }
+  div.on{
+    color:#fff;
+    span{
+      display: block;
+    }
+  }
+}
+.login-input{
+  margin:0 auto;
+  width:470px;
+  .login-user,.login-pwd{
+    margin-top:20px;
+    width:470px;
+    border-bottom:1px solid #deedf2;
+    input{
+      width:100%;
+      height:32px;
+      color:#fff;
+      background: transparent;
+      outline: none;
+    }
+    input::-webkit-input-placeholder{
+      color:#deedf2;
+    }
+  }
+  .login-msg{
+    display: flex;
+    margin-top:19px;
+    line-height:32px;
+    input{
+      height:32px;
+      border:1px solid #c1dce5;
+      border-radius: 10px;
+      text-indent:10px;
+      color:#fff;
+      background: transparent;
+      outline:none;
+    }
+  }
+  .login-user-msg{
+    input{
+      width:405px;
+    }
+  }
+  .login-pwd-msg{
+    input{
+      width:230px;
+    }
+    .sendMsg{
+      margin-left:20px;
+      width:120px;
+      height:32px;
+      border-radius: 10px;
+      line-height: 32px;
+      text-align: center;
+      background: #71abc3;
+      cursor: pointer;
+    }
+  }
+}
+#login{
+  margin:40px auto 0;
+  width:450px;
+  height:50px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  border-radius:30px;
+  font-size:20px;
+  line-height:50px;
+  text-align: center;
+  color:#fff;
+  background: #ff4141;
+  cursor: pointer;
+}

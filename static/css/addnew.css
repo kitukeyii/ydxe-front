@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.addNew {
+  margin: 0 auto;
+  width: 430px;
+}
+.addNew .title {
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+.addNew .el-form .el-input {
+  width: 300px;
+}
+.addNew .upload {
+  width: 200px;
+  height: 250px;
+}
+.addNew .idcard {
+  width: 250px;
+  height: 150px;
+}

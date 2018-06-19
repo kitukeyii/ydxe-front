@@ -1,0 +1,79 @@
+@charset "UTF-8";
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+}
+.wrap-con {
+  width: 100%;
+  height: 100%;
+}
+.wrap-con .wct {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+.wrap-con .wct .wct-r {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 800px;
+  height: 60px;
+  background: url(http://oss.yundianxiaoer.com/card/up1523936482914.png!style) no-repeat center;
+}
+.wrap-con .wct .wct-r .input-with-select {
+  width: 200px;
+}
+.wrap-con .wct .wct-r .add {
+  border: none;
+  color: #fff;
+  background: #ff4141;
+}
+.wrap-con .wct .wct-r .wrapCom {
+  margin-left: 50px;
+}
+.wrap-con .wct .wct-r .wrapBtns {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+.wrap-con .wcc {
+  position: relative;
+  height: calc(100% - 60px);
+  border: 10px solid #fff;
+  background-color: #fff;
+}
+.wrap-con .wcc .el-main {
+  background: #fff;
+}
+.wrap-con .wcc .goBack {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.wrap-con .wcc .goBack i.el-icon-back {
+  line-height: 50px;
+}
+.wrap-con .wcc .el-pagination {
+  margin: 20px auto !important;
+  text-align: center;
+}
+.wrap-con .wcc .el-pagination .el-pager .number:hover {
+  color: #ff4141;
+}
+.wrap-con .wcc .el-pagination .el-pager .active {
+  background: #ff4141 !important;
+}
+.wrap-con .wcc .el-pagination .el-pager .active:hover {
+  color: #fff !important;
+}
+.wrap-con .wcc .el-pagination .el-pager li:not(.disabled):hover {
+  color: #ff4141 !important;
+}

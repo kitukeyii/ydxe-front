@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.admin {
+  width: 100%;
+  height: 100%;
+}
+.el-header {
+  display: flex;
+  position: relative;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+}
+.el-header .name {
+  line-height: 50px;
+}
+.el-header .sign-out {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.el-aside {
+  width: 150px;
+  height: 100%;
+  color: #333;
+  text-align: center;
+}
+.el-aside .el-menu {
+  height: 100%;
+}
+.el-main {
+  background-color: #E9EEF3;
+  color: #333;
+  padding: 10px;
+}
+.el-main .main-top {
+  position: relative;
+  padding: 0 10px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #fff;
+}
+.el-main .main-top .el-button {
+  background: #ff4141;
+}
+.el-main .main-top .el-input {
+  width: 200px;
+}
+.el-main .main-top .add {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.el-main .main-bot {
+  text-align: center;
+  margin-top: 20px;
+}
+.el-container {
+  width: 100%;
+  height: 100%;
+}
