@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ydxe-front.iml" filepath="$PROJECT_DIR$/.idea/ydxe-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/see.iml" filepath="$PROJECT_DIR$/.idea/see.iml" />
     </modules>
   </component>
 </project>
